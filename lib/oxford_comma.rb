@@ -3,7 +3,7 @@ def oxford_comma(array)
   if array.size >= 2
     array.join(", ").concat(", and #{last_element}")
   elsif array.size == 1
-    array.join.concat("and #{last_element}")
+    array.join.concat(" and #{last_element}")
   else
     last_element
   end
